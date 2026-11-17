@@ -1,11 +1,11 @@
 import rsvpConfig from './rsvp-config.js'
 
 const weddingConfig = {
-  groom: '新郎姓名',
-  bride: '新娘姓名',
+  groom: '钟胜昌',
+  bride: '卢燕',
   groomLatin: 'GROOM',
   brideLatin: 'BRIDE',
-  weddingDate: '2030-10-01T00:00:00+08:00',
+  weddingDate: '2026-12-20T00:00:00+08:00',
   dateDot: '2030 · 10 · 01',
   dateCn: '2030年10月1日 · 星期二',
   calendarMonth: 'OCT',
