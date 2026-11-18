@@ -28,7 +28,7 @@ export function initializeRsvp(rsvpConfig) {
 
   rsvpForm.innerHTML = `
     <div style="text-align:center;padding:20px 10px;">
-      <p style="color:#fff;margin:18px 0;font-size:17px;">欢迎来我们的婚礼，请点击下方按钮填写报名信息✨</p >
+      <p style="color:#fff;margin:18px 0;font-size:17px;">诚邀您见证我们的婚礼，请点击下方按钮告知我们到场情况✨</p >
       <button id="open-form-btn" style="
         padding:14px 28px;
         background:#e6a520;
@@ -39,6 +39,7 @@ export function initializeRsvp(rsvpConfig) {
         font-size:20px;
         cursor:pointer;
       ">前往鹈鹕镇登记</button>
+      <p style="margin-top:12px;font-size:0.85em;color:#664422;">如不方便线上登记，也可以微信私聊我们告知哦</p >
     </div>
   `
   // 按钮点击新开窗口打开腾讯收集表
