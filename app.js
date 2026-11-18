@@ -3,8 +3,8 @@ import rsvpConfig from './rsvp-config.js'
 const weddingConfig = {
    groom: '钟胜昌',
   bride: '卢燕',
-  groomLatin: '钟胜昌',
-  brideLatin: '卢燕',
+  groomLatin: '欢 迎 参 加',
+  brideLatin: '钟胜昌&卢燕的婚礼',
   weddingDate: '2026-12-20T00:00:00+08:00',
   dateDot: '2026 · 12 · 20',
   dateCn: '2026年12月20日 · 星期日',
