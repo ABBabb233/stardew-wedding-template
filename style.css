@@ -270,3 +270,22 @@ svg { shape-rendering: crispEdges; }
   .reveal { opacity: 1; transform: none; }
   .hero-mountains { transform: none; }
 }
+.wedding-photo-pixel-box {
+  width: 100%;
+  max-width: 480px;
+  margin: 24px auto;
+  padding: 16px;
+  background: #c9a66b;
+  border: 6px solid #8b5a2b;
+  box-shadow:
+    inset 4px 4px 0 #e8d9b7,
+    inset -4px -4px 0 #7a4a20,
+    6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.wedding-photo-pixel-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 3px solid #8b5a2b;
+}
