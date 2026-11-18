@@ -70,7 +70,7 @@ svg { shape-rendering: crispEdges; }
   font-size: clamp(36px, 9vw, 50px); 
   font-weight: 900; 
   letter-spacing: .01em; 
-  line-height: .82; 
+  line-height: 1.05; 
   -webkit-text-stroke: 2px #744216; 
   text-shadow: 0 3px #ffc63b, 0 7px #6d4017, 4px 9px #173a70; 
   transform: scaleX(.9); 
