@@ -63,7 +63,7 @@ svg { shape-rendering: crispEdges; }
   position: relative;
   z-index: 4;
   text-align: center;
-  margin-top: 100px; /* 核心：往下挪，想要更下就改成120px */
+  margin-top: 80px; /* 核心：往下挪，想要更下就改成120px */
 }
 
 .hero-copy .eyebrow {
