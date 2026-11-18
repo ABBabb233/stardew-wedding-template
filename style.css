@@ -59,8 +59,19 @@ svg { shape-rendering: crispEdges; }
 .sky-stars { position: absolute; z-index: 0; inset: 0; overflow: hidden; }
 .sky-stars::after { content: ''; position: absolute; left: -10%; right: -10%; top: 43%; height: 27%; opacity: .22; background: linear-gradient(180deg, transparent, #b9e5df 48%, transparent); filter: blur(14px); }
 .sky-stars i { position: absolute; width: 3px; height: 3px; background: #fff9cf; box-shadow: 4px 2px #ffffff8f; animation: starBlink var(--twinkle, 2.2s) ease-in-out infinite alternate; }
-.hero-copy { position: relative; z-index: 4; text-align: center; }
-.hero-copy .eyebrow { color: #ffe2a0; text-shadow: 2px 2px #395080; }
+.hero-copy {
+  position: relative;
+  z-index: 4;
+  text-align: center;
+  margin-top: 100px; /* 核心：往下挪，想要更下就改成120px */
+}
+
+.hero-copy .eyebrow {
+  color: #ffe2a0;  
+  text-shadow: 2px 2px #395080; 
+  font-size: 21px;
+  letter-spacing: 3px;
+}
 .game-title {
   margin: 16px auto 40px;
   display: grid;
