@@ -1,4 +1,4 @@
 {
   "enabled": true,
-  "apiUrl": "/api/rsvp"
+  "apiUrl": "https://wedding-rsvp-push-1943816373.workers.dev"
 }
