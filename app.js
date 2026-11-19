@@ -281,7 +281,15 @@ music.addEventListener('error', () => {
 })
 musicButton.addEventListener('click', () => { isMusicPlaying() ? pauseMusic() : playMusic() })
 window.setTimeout(() => { playMusic() }, 0)
-
+// 页面第一次点击任意位置自动播放背景音乐，只触发一次
+document.addEventListener('click', async () => {
+  if (!music.paused) return;
+  try {
+    await playMusic();
+  } catch (err) {
+    console.log('自动播放失败', err);
+  }
+}, { once: true });
 document.addEventListener('visibilitychange', () => {
   if (document.hidden) {
     resumeAfterVisibility = isMusicPlaying()
