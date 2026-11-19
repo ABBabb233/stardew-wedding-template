@@ -23,7 +23,7 @@ const weddingConfig = {
 }
 
 const contentValues = {
-  couple: `${weddingConfig.groom} × ${weddingConfig.bride}`,
+  couple: weddingConfig.venue,
   coupleAmp: `${weddingConfig.groom} & ${weddingConfig.bride}`,
   groomLatin: weddingConfig.groomLatin,
   brideLatin: weddingConfig.brideLatin,
